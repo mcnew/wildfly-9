@@ -1,6 +1,6 @@
 148a149,156
 >                 <datasource jndi-name="java:/jdbc/dynamic" pool-name="dynamic" enabled="true">
->                     <connection-url>jdbc:mysql://mysql:3306/dynamic</connection-url>
+>                     <connection-url>jdbc:mysql://mysql:3306/dynamic?verifyServerCertificate=false&amp;useSSL=false&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</connection-url>
 >                     <driver>mysql</driver>
 >                     <security>
 >                         <user-name>dynamic</user-name>
