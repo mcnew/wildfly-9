@@ -8,6 +8,6 @@
 >                     </security>
 >                 </datasource>
 152a161,163
->                     <driver name="mariadb" module="mysql.jdbc">
+>                     <driver name="mysql" module="mysql.jdbc">
 >                         <datasource-class>com.mysql.cj.jdbc.Driver</datasource-class>
 >                     </driver>
