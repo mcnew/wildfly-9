@@ -1,0 +1,13 @@
+148a149,156
+>                 <datasource jndi-name="java:/jdbc/dynamic" pool-name="dynamic" enabled="true">
+>                     <connection-url>jdbc:mysql://mysql:3306/dynamic</connection-url>
+>                     <driver>mysql</driver>
+>                     <security>
+>                         <user-name>dynamic</user-name>
+>                         <password>dynamic</password>
+>                     </security>
+>                 </datasource>
+152a161,163
+>                     <driver name="mariadb" module="mysql.jdbc">
+>                         <datasource-class>com.mysql.cj.jdbc.Driver</datasource-class>
+>                     </driver>
