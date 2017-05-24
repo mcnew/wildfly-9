@@ -1,4 +1,16 @@
-148a149,156
+84c84
+<                 <level name="INFO"/>
+---
+>                 <level name="TRACE"/>
+96a97,99
+>             <logger category="net.sf.razzek">
+>                 <level name="TRACE"/>
+>             </logger>
+126c129
+<                 <pattern-formatter pattern="%K{level}%d{HH:mm:ss,SSS} %-5p [%c] (%t) %s%e%n"/>
+---
+>                 <pattern-formatter pattern="%d{HH:mm:ss,SSS} %-5p %l %s%e%n"/>
+148a152,159
 >                 <datasource jndi-name="java:/jdbc/dynamic" pool-name="dynamic" enabled="true">
 >                     <connection-url>jdbc:mysql://mysql:3306/dynamic?verifyServerCertificate=false&amp;useSSL=false&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</connection-url>
 >                     <driver>mysql</driver>
@@ -7,7 +19,7 @@
 >                         <password>dynamic</password>
 >                     </security>
 >                 </datasource>
-152a161,163
+152a164,166
 >                     <driver name="mysql" module="mysql.jdbc">
 >                         <datasource-class>com.mysql.cj.jdbc.Driver</datasource-class>
 >                     </driver>
